@@ -1,3 +1,6 @@
 env/
 loja/__pycache__/
+pedido/__pycache__/
+perfil/__pycache__/
+produto/__pycache__/
 .vscode/
