@@ -1,3 +1,10 @@
+  
 env/
 loja/__pycache__/
+pedido/__pycache__/
+pedido/migrations/__pycache__/
+perfil/__pycache__/
+perfil/migrations/__pycache__/
+produto/__pycache__/
+produto/migrations/__pycache__/
 .vscode/
