@@ -20,6 +20,9 @@ from django.conf.urls.static import static
 import debug_toolbar
 
 urlpatterns = [
+    path('pedido/', include('pedido.urls')),
+    path('perfil/', include('perfil.urls')),
+    path('', include('produto.urls')),
     path('admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
